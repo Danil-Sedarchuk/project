@@ -17,5 +17,5 @@ console.log(2*4 === 8);
 const isChecked = false,
       isClose = false;
 
-console.log(isChecked || isClose);
+console.log(isChecked || !isClose);
 
